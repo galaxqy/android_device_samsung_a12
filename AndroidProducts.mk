@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_a12.mk
+    $(LOCAL_DIR)/lineage_a12.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_a12-user \
-    omni_a12-userdebug \
-    omni_a12-eng
+    lineage_a12-user \
+    lineage_a12-userdebug \
+    lineage_a12-eng
