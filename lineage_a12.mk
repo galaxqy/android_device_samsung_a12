@@ -20,3 +20,5 @@ PRODUCT_NAME := lineage_a12
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A125W
 PRODUCT_MANUFACTURER := samsung
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(DEVICE_PATH)/recovery/root,recovery/root)
